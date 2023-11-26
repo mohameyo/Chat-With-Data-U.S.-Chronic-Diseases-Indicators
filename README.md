@@ -1,7 +1,7 @@
-# Welcome MADS Students to the Chatbot Project
+# Welcome MADS Students to the Chatbot Project 🚀
 
 ## Introduction
-Welcome to the Chatbot Project repository! In this GitHub, we embark on a journey to create chatbots powered by Large Language Models (specifically, the GPT-4 model) using the Gradio library interface. The main goal of this project is to engage in what we term "Chat With Data." Our dataset, sourced from CDC's Division of Population Health, provides a comprehensive set of 124 indicators, allowing for uniform definition, collection, and reporting of chronic disease data.
+Welcome to the Chatbot Project repository! 🤖 In this GitHub, we embark on a journey to create chatbots powered by Large Language Models (specifically, the GPT-4 model) using the Gradio library interface. The main goal of this project is to engage in what we term "Chat With Data." Our dataset, sourced from CDC's Division of Population Health, provides a comprehensive set of 124 indicators, allowing for uniform definition, collection, and reporting of chronic disease data.
 
 ### Dataset Overview
 The dataset is structured with 124 indicators in the column ["Questions"], classified under 17 health topics. Each question is answered across various Stratification categories and data value types. The dataset, in long format, covers state and national levels from 2008 to 2020, with some values presented as averages over a range of years, as indicated in the YearStart and YearEnd columns.
@@ -9,13 +9,13 @@ The dataset is structured with 124 indicators in the column ["Questions"], class
 ## Getting Started
 
 ### 1. Download the GitHub Code
-Clone or download the GitHub code to your local machine.
+Clone or download the GitHub code to your local machine. 📥
 
 ### 2. Data Loading & Preprocessing
 Open the "Data Loading & Preprocessing" notebook and run the provided notebook. This step ensures that the dataset is loaded correctly.
 
 ### 3. Explore Different Approaches
-Explore different approaches in the provided notebooks. Run the requirements.txt file to install necessary libraries and dependencies. Add your OpenAI/AzureOpenAI API credentials as needed.
+Explore different approaches in the provided notebooks. Run the requirements.txt file to install necessary libraries and dependencies. Add your OpenAI/AzureOpenAI API credentials as needed. 🧠
 
 #### - PandasAgentLangChainChatbot
 This notebook demonstrates how to use agents to interact with a Pandas DataFrame, optimized for question answering. The PandasAgent reads the dataframe, executes Python code, and provides answers in a chat format using the Gradio Chatbot Interface.
@@ -32,4 +32,4 @@ Compare different approaches with evaluation questions provided in the evaluatio
 ## Conclusion
 This repository introduces new approaches, showcasing the power of Large Language Models (GPT-4) in enabling dynamic interactions with your data. There's room for further development, such as finetuning function parameters, creating custom agents, improving evaluation methods, and enhancing dataset preprocessing.
 
-Enjoy exploring the possibilities and happy coding!
+Enjoy exploring the possibilities and happy coding! 🎉
