@@ -1,7 +1,7 @@
-# Welcome MADS Students to the Chatbot Project 🚀
+# Welcome MADS Students to the Chat With U.S. Chronic Disease Data Project 🚀
 
 ## Introduction
-Welcome to the Chatbot Project repository! 🤖 In this GitHub, we embark on a journey to create chatbots powered by Large Language Models (specifically, the GPT-4 model) using the Gradio library interface. The main goal of this project is to engage in what we term "Chat With Data." Our dataset, sourced from CDC's Division of Population Health, provides a comprehensive set of 124 indicators, allowing for uniform definition, collection, and reporting of chronic disease data.
+Welcome to the repository! 🤖 In this GitHub, we embark on a journey to create chatbots powered by Large Language Models (specifically, the GPT-4 model) using the Gradio library interface. The main goal of this project is to engage in what we term "Chat With Data." Our dataset, sourced from CDC's Division of Population Health, provides a comprehensive set of 124 indicators, allowing for uniform definition, collection, and reporting of chronic disease data.
 
 ### Dataset Overview
 The dataset is structured with 124 indicators in the column ["Questions"], classified under 17 health topics. Each question is answered across various Stratification categories and data value types. The dataset, in long format, covers state and national levels from 2008 to 2020, with some values presented as averages over a range of years, as indicated in the YearStart and YearEnd columns.
