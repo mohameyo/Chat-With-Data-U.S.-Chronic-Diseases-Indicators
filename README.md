@@ -24,10 +24,14 @@ This notebook demonstrates how to use agents to interact with a Pandas DataFrame
 
 You can check its documentation here: https://python.langchain.com/docs/integrations/toolkits/pandas
 
+Chatbot Sample:
 ![Alt text](PandasAgentLangChainChatbot/Screenshot1.PNG)
 
 #### - Retrieval Augmented Generation (RAG) using LangChain
 Explore challenges with RAG and its optimal use with text data rather than a simple dataframe. Interact with the Chronic disease data using the RAG-LangChain file and Gradio interface.
+
+Here is how RAG works (source: https://blog.langchain.dev/espilla-x-langchain-retrieval-augmented-generation-rag-in-llm-powered-question-answering-pipelines/)
+![Alt text](RAG-Langchain/ExplainRAG.png)
 
 You can check its documentation here: https://python.langchain.com/docs/use_cases/question_answering/
 
