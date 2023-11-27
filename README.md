@@ -13,10 +13,14 @@ Data Source: https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi
 ### 1. Download the GitHub Code
 Clone or download the GitHub code to your local machine. 📥
 
-### 2. Data Loading & Preprocessing
+### 2. Install Packages & Dependencies
+Use the following code in your command prompt to install the dependencies listed in the requirements.txt file and ensure smooth execution of your notebook:
+```pip install -r /path/to/requirements.txt```
+
+### 3. Data Loading & Preprocessing
 Open the "Data Loading & Preprocessing" notebook and run the provided notebook. This step ensures that the dataset is loaded correctly.
 
-### 3. Explore Different Approaches
+### 4. Explore Different Approaches
 Explore different approaches in the provided notebooks. Run the requirements.txt file to install necessary libraries and dependencies. In the notebook, add your OpenAI/AzureOpenAI API credentials as needed. 🧠
 
 #### - PandasAgentLangChainChatbot
@@ -39,7 +43,7 @@ You can check its documentation here: https://python.langchain.com/docs/use_case
 #### - LlamaIndex Approach
 Discover an alternative approach using GPT-4, initializing the LlamaIndex agent, and prompting the GPT for answers. Similar to PandasAgent, it involves coding and returns answers.
 
-### 4. Evaluation
+### 5. Evaluation
 Compare various approaches by referencing the evaluation questions provided in the evaluation notebook. Assess the performance of each method based on the answers obtained. We encourage you to experiment more advanced evaluation methods discussed in this medium: https://medium.com/discovery-at-nesta/how-to-evaluate-large-language-model-chatbots-experimenting-with-streamlit-and-prodigy-c82db9f7f8d9
 
 ## Conclusion
