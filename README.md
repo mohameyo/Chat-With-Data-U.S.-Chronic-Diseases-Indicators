@@ -35,8 +35,8 @@ Here is how RAG works (source: https://blog.langchain.dev/espilla-x-langchain-re
 
 You can check its documentation here: https://python.langchain.com/docs/use_cases/question_answering/
 
-#### - LamaIndex Approach
-Discover an alternative approach using GPT-4, initializing the LamaIndex agent, and prompting the GPT for answers. Similar to PandasAgent, it involves coding and returns answers.
+#### - LlamaIndex Approach
+Discover an alternative approach using GPT-4, initializing the LlamaIndex agent, and prompting the GPT for answers. Similar to PandasAgent, it involves coding and returns answers.
 
 ### 4. Evaluation
 Compare different approaches with evaluation questions provided in the evaluation notebook. Evaluate answers obtained by each method and assess their performance.
