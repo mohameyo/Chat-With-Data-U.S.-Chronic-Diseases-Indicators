@@ -22,6 +22,8 @@ Explore different approaches in the provided notebooks. Run the requirements.txt
 #### - PandasAgentLangChainChatbot
 This notebook demonstrates how to use agents to interact with a Pandas DataFrame, optimized for question answering. The PandasAgent reads the dataframe, executes Python code, and provides answers in a chat format using the Gradio Chatbot Interface.
 
+You can check its documentation here: https://python.langchain.com/docs/integrations/toolkits/pandas
+
 #### - Retrieval Augmented Generation (RAG) using LangChain
 Explore challenges with RAG and its optimal use with text data rather than a simple dataframe. Interact with the Chronic disease data using the RAG-LangChain file and Gradio interface.
 
