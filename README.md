@@ -43,6 +43,15 @@ Discover an alternative approach using GPT-4, initializing the LlamaIndex agent,
 Compare various approaches by referencing the evaluation questions provided in the evaluation notebook. Assess the performance of each method based on the answers obtained. We encourage you to experiment more advanced evaluation methods discussed in this medium: https://medium.com/discovery-at-nesta/how-to-evaluate-large-language-model-chatbots-experimenting-with-streamlit-and-prodigy-c82db9f7f8d9
 
 ## Conclusion
-This repository introduces new approaches, showcasing the power of Large Language Models (GPT-4) in enabling dynamic interactions with your data. There's room for further development, such as finetuning function parameters, creating custom agents, improving evaluation methods, and enhancing dataset preprocessing.
+This repository introduces novel approaches, highlighting the capabilities of Large Language Models (GPT-4) for dynamic interactions with data. It presents opportunities for future enhancements, including fine-tuning function parameters, crafting custom agents, refining evaluation methods, and optimizing dataset preprocessing. We strongly encourage collaboration and continuous improvement by welcoming contributions and feedback from you. Your active engagement will contribute to the ongoing evolution and success of this project.
+
+## About Section:
+#### Masters of Applied Data Science Program Capstone Project - University of Michigan
+Team 1 - Mediterranean team 
+Team Members:
+1. Anze Zorin (azorin@umich.edu)
+2. Eugene Yiga (yiga@umich.edu)
+3. Mohamed Abdelrahman (mohameyo@umich.edu)
+Feel free to reach out to any of our team members via the provided email addresses.
 
 Enjoy exploring the possibilities and happy coding! 🎉
