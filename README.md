@@ -24,7 +24,8 @@ This notebook demonstrates how to use agents to interact with a Pandas DataFrame
 
 You can check its documentation here: https://python.langchain.com/docs/integrations/toolkits/pandas
 
-Chatbot Sample:
+###### Chatbot Sample:
+
 ![Alt text](PandasAgentLangChainChatbot/Screenshot1.PNG)
 
 #### - Retrieval Augmented Generation (RAG) using LangChain
@@ -39,7 +40,7 @@ You can check its documentation here: https://python.langchain.com/docs/use_case
 Discover an alternative approach using GPT-4, initializing the LlamaIndex agent, and prompting the GPT for answers. Similar to PandasAgent, it involves coding and returns answers.
 
 ### 4. Evaluation
-Compare different approaches with evaluation questions provided in the evaluation notebook. Evaluate answers obtained by each method and assess their performance.
+Compare various approaches by referencing the evaluation questions provided in the evaluation notebook. Assess the performance of each method based on the answers obtained. We encourage you to experiment more advanced evaluation methods discussed in this medium: https://medium.com/discovery-at-nesta/how-to-evaluate-large-language-model-chatbots-experimenting-with-streamlit-and-prodigy-c82db9f7f8d9
 
 ## Conclusion
 This repository introduces new approaches, showcasing the power of Large Language Models (GPT-4) in enabling dynamic interactions with your data. There's room for further development, such as finetuning function parameters, creating custom agents, improving evaluation methods, and enhancing dataset preprocessing.
