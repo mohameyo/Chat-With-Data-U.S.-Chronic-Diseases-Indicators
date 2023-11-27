@@ -21,7 +21,7 @@ Use the following code in your command prompt to install the dependencies listed
 Open the "Data Loading & Preprocessing" notebook and run the provided notebook. This step ensures that the dataset is loaded correctly.
 
 ### 4. Explore Different Approaches
-Explore different approaches in the provided notebooks. Run the requirements.txt file to install necessary libraries and dependencies. In the notebook, add your OpenAI/AzureOpenAI API credentials as needed. 🧠
+Explore different approaches in the provided notebooks. In the notebook, add your OpenAI/AzureOpenAI API credentials as needed. 🧠
 
 #### - PandasAgentLangChainChatbot
 This notebook demonstrates how to use agents to interact with a Pandas DataFrame, optimized for question answering. The PandasAgent reads the dataframe, executes Python code, and provides answers in a chat format using the Gradio Chatbot Interface.
