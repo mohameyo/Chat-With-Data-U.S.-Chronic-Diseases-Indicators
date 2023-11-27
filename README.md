@@ -29,6 +29,8 @@ You can check its documentation here: https://python.langchain.com/docs/integrat
 #### - Retrieval Augmented Generation (RAG) using LangChain
 Explore challenges with RAG and its optimal use with text data rather than a simple dataframe. Interact with the Chronic disease data using the RAG-LangChain file and Gradio interface.
 
+You can check its documentation here: https://python.langchain.com/docs/use_cases/question_answering/
+
 #### - LamaIndex Approach
 Discover an alternative approach using GPT-4, initializing the LamaIndex agent, and prompting the GPT for answers. Similar to PandasAgent, it involves coding and returns answers.
 
