@@ -1,0 +1,41 @@
+Question,Accuracy,Completeness,Bot
+What are some of the topics tracked in the dataset?,1,1,GPT
+List Cancer related indicators available in the dataset.,1,1,GPT
+List Cancer related Indicators for which there are data for the last year of any available data.,1,1,GPT
+How many diferent datatypes are in the dataset?,1,1,GPT
+"What is the mean value for indicator ""Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years"" in the last year of available data? Provide answer for Overall stratification group.",1,1,GPT
+"What is the value for ""Cancer of the female breast, mortality"" in Wisconsin. Provide answer for Overall stratification group.",1,1,GPT
+"Which state has the worst values for ""Cancer of the female breast, mortality"" for the last year of available data for that particular indicator. Where does it rank in Poverty indicator among states? Provide answer for Overall stratification group.",0.5,0,GPT
+"How does ""Hospitalizations for Asthma"" indicator corelate with ""Sale of cigarette packs"" Provide answer for Overall stratification group.",1,1,GPT
+Find the pair of Indicators with the highest correlation,0,0,GPT
+"Which state has the highest number of missing values for ""Poverty"" indicator? Provide answer for Overall stratification group.",1,1,GPT
+What are some of the topics tracked in the dataset?,1,1,LLAMA - PQE
+List Cancer related indicators available in the dataset.,1,1,LLAMA - PQE
+List Cancer related Indicators for which there are data for the last year of any available data.,0,0,LLAMA - PQE
+How many diferent datatypes are in the dataset?,1,1,LLAMA - PQE
+"What is the mean value for indicator ""Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years"" in the last year of available data? Provide answer for Overall stratification group.",0,0,LLAMA - PQE
+"What is the value for ""Cancer of the female breast, mortality"" in Wisconsin. Provide answer for Overall stratification group.",0,0,LLAMA - PQE
+"Which state has the worst values for ""Cancer of the female breast, mortality"" for the last year of available data for that particular indicator. Where does it rank in Poverty indicator among states? Provide answer for Overall stratification group.",0,0,LLAMA - PQE
+"How does ""Hospitalizations for Asthma"" indicator corelate with ""Sale of cigarette packs"" Provide answer for Overall stratification group.",0,0,LLAMA - PQE
+Find the pair of Indicators with the highest correlation,0,0,LLAMA - PQE
+"Which state has the highest number of missing values for ""Poverty"" indicator? Provide answer for Overall stratification group.",0,0,LLAMA - PQE
+What are some of the topics tracked in the dataset?,1,1,LLAMA - SQE
+List Cancer related indicators available in the dataset.,0,0,LLAMA - SQE
+List Cancer related Indicators for which there are data for the last year of any available data.,1,1,LLAMA - SQE
+How many diferent datatypes are in the dataset?,0,0,LLAMA - SQE
+"What is the mean value for indicator ""Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years"" in the last year of available data? Provide answer for Overall stratification group.",0,0,LLAMA - SQE
+"What is the value for ""Cancer of the female breast, mortality"" in Wisconsin. Provide answer for Overall stratification group.",0,0,LLAMA - SQE
+"Which state has the worst values for ""Cancer of the female breast, mortality"" for the last year of available data for that particular indicator. Where does it rank in Poverty indicator among states? Provide answer for Overall stratification group.",0,0,LLAMA - SQE
+"How does ""Hospitalizations for Asthma"" indicator corelate with ""Sale of cigarette packs"" Provide answer for Overall stratification group.",0,0,LLAMA - SQE
+Find the pair of Indicators with the highest correlation,0,0,LLAMA - SQE
+"Which state has the highest number of missing values for ""Poverty"" indicator? Provide answer for Overall stratification group.",0,0,LLAMA - SQE
+What are some of the topics tracked in the dataset?,1,1,LangChain
+List Cancer related indicators available in the dataset.,1,1,LangChain
+List Cancer related Indicators for which there are data for the last year of any available data.,1,1,LangChain
+How many diferent datatypes are in the dataset?,1,1,LangChain
+"What is the mean value for indicator ""Fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50-75 years"" in the last year of available data? Provide answer for Overall stratification group.",1,1,LangChain
+"What is the value for ""Cancer of the female breast, mortality"" in Wisconsin. Provide answer for Overall stratification group.",0,0,LangChain
+"Which state has the worst values for ""Cancer of the female breast, mortality"" for the last year of available data for that particular indicator. Where does it rank in Poverty indicator among states? Provide answer for Overall stratification group.",0,0,LangChain
+"How does ""Hospitalizations for Asthma"" indicator corelate with ""Sale of cigarette packs"" Provide answer for Overall stratification group.",0,0,LangChain
+Find the pair of Indicators with the highest correlation,0,0,LangChain
+"Which state has the highest number of missing values for ""Poverty"" indicator? Provide answer for Overall stratification group.",0,0,LangChain
