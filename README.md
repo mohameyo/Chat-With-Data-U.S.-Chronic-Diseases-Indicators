@@ -10,12 +10,12 @@ Data Source: https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi
 
 ## Directory Structure:
 
+Each file contains the following
 1. **`data`:**
-   - Preprocessed data stored in `results.csv` reflecting different approaches.
-   - Evaluate results using the provided evaluation questions in the notebooks.
+   - Preprocessed data stored in the data using the [PreprocessingDataFile](./Notebooks/getProcessData.ipynb)
+   - results.csv provided evaluation questions in the [EvaluationQuestions](./Notebooks/evaluation_questions.ipynb).
 
 2. **`Notebooks`:**
-   - [`getProcessData`](./Notebooks/getProcessData.ipynb): Preprocess data and save it in the 'data' directory.
    - Additional notebooks for different approaches:
      - [LangChain](./Notebooks/LangChain.ipynb)
      - [LlamaIndex](./Notebooks/LlamaIndex.ipynb)
