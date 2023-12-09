@@ -8,6 +8,43 @@ The dataset is structured with 124 indicators in the column ["Questions"], class
 
 Data Source: https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi
 
+**GitHub Repository Overview:**
+## Directory Structure:
+
+1. **`data`:**
+   - Preprocessed data stored in `results.csv` reflecting different approaches.
+   - Evaluate results using the provided evaluation questions in the notebooks.
+
+2. **`Notebooks`:**
+   - [`getProcessData`](./Notebooks/getProcessData.ipynb): Preprocess data and save it in the 'data' directory.
+   - Additional notebooks for different approaches:
+     - [LangChain](./Notebooks/LangChain.ipynb)
+     - [LlamaIndex](./Notebooks/LlamaIndex.ipynb)
+     - [Visualizations](./Notebooks/Visualizations.ipynb)
+   - **Instructions:**
+      - Run [`getProcessData`](./Notebooks/getProcessData.ipynb).
+      - Update `.env` with OpenAI, Pinecone, Hugging Face, and Database IDs.
+      - Install dependencies with `pip install -r /../requirements.txt`.
+
+3. **`Scripts`:**
+   - Files for the Llama index approach.
+
+4. **`Images`:**
+   - Sample chatbot outputs and RAG explanations.
+
+5. **`Requirements.txt`:**
+   - Essential Python packages and dependencies.
+
+## Usage Guide:
+
+1. Execute [`getProcessData`](./Notebooks/getProcessData.ipynb) to preprocess data in 'data'.
+
+2. Update `.env` with required IDs (OpenAI, Pinecone, Hugging Face, Database).
+
+3. Install dependencies: `pip install -r /../requirements.txt`.
+
+4. Explore different Chat With Data approaches in the notebooks.
+
 ## Getting Started
 
 ### 1. Download the GitHub Code
