@@ -38,7 +38,7 @@ Each file contains the following
 6. **`.env`:**
     - Contais required IDs (OpenAI, Pinecone, Hugging Face, SQL Database).
 
-## Usage Guide:
+#### Usage Guide:
 
 1. Execute [`getProcessData`](./Notebooks/getProcessData.ipynb) to preprocess data in 'data'.
 
