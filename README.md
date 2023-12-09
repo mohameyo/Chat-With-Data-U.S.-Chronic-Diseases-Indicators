@@ -57,6 +57,7 @@ Team Members:
 1. Anze Zorin (azorin@umich.edu)
 2. Eugene Yiga (yiga@umich.edu)
 3. Mohamed Abdelrahman (mohameyo@umich.edu)
+   
 Feel free to reach out to any of our team members via the provided email addresses.
 
 Enjoy exploring the possibilities and happy coding! 🎉
