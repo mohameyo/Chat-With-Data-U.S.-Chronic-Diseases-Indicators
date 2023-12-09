@@ -49,27 +49,30 @@ Each file contains the following
 4. Explore different Chat With Data approaches in the notebooks.
 
 ### 2. Explore Different Approaches
-Explore different approaches in the provided notebooks. In the notebook, add your OpenAI/AzureOpenAI API credentials as needed. 🧠
+Explore different approaches in the provided notebooks 🧠
 
-#### - PandasAgentLangChainChatbot
+#### - [PandasLangChain](./Notebooks/Langchain_PandasAgent.ipynb)
 This notebook demonstrates how to use agents to interact with a Pandas DataFrame, optimized for question answering. The PandasAgent reads the dataframe, executes Python code, and provides answers in a chat format using the Gradio Chatbot Interface.
 
 You can check its documentation here: https://python.langchain.com/docs/integrations/toolkits/pandas
 
 ###### Chatbot Sample:
 
-![Alt text](PandasAgentLangChainChatbot/Screenshot1.PNG)
+![Alt text](Images/Screenshot1.PNG)
 
-#### - Retrieval Augmented Generation (RAG) using LangChain
+#### - [Retrieval Augmentation Generation](./Notebooks/Langchain_RAG.ipynb)
 Explore challenges with RAG and its optimal use with text data rather than a simple dataframe. Interact with the Chronic disease data using the RAG-LangChain file and Gradio interface.
 
 Here is how RAG works (source: https://blog.langchain.dev/espilla-x-langchain-retrieval-augmented-generation-rag-in-llm-powered-question-answering-pipelines/)
-![Alt text](RAG-Langchain/ExplainRAG.png)
+![Alt text](Images/ExplainRAG.png)
 
 You can check its documentation here: https://python.langchain.com/docs/use_cases/question_answering/
 
-#### - LlamaIndex Approach
-Discover an alternative approach using GPT-4, initializing the LlamaIndex agent, and prompting the GPT for answers. Similar to PandasAgent, it involves coding and returns answers.
+#### - [PandasLlamaIndex](./Notebooks/Llama_pandasQueryEngine.ipynb)
+Explore an alternative approach using GPT-4 by initializing the LlamaIndex Pandas agent and prompting GPT for answers. Similar to the LangChain PandasAgent, this approach involves Python coding and returns answers.
+
+#### - [SQLLlamaIndex](./Notebooks/Llama_SQLAutoVectorQueryEngine.ipynb)
+Discover another alternative using GPT-4, this time by initializing the LlamaIndex SQL agent and prompting GPT for answers. Similar to the LangChain PandasAgent, this approach involves SQL coding and returns answers.
 
 ### 3. Evaluation
 Compare various approaches by referencing the evaluation questions provided in the evaluation notebook. Assess the performance of each method based on the answers obtained. We encourage you to experiment more advanced evaluation methods discussed in this medium: https://medium.com/discovery-at-nesta/how-to-evaluate-large-language-model-chatbots-experimenting-with-streamlit-and-prodigy-c82db9f7f8d9
