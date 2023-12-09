@@ -51,7 +51,7 @@ This repository introduces novel approaches, highlighting the capabilities of La
 
 ## About Section:
 #### Masters of Applied Data Science Program Capstone Project - University of Michigan
-#### Team 1 - Mediterranean team
+#### Team 1 - Team Mediterranean
 1. Anze Zorin (azorin@umich.edu)
 2. Eugene Yiga (yiga@umich.edu)
 3. Mohamed Abdelrahman (mohameyo@umich.edu)
