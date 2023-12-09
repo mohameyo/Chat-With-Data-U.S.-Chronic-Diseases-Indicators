@@ -8,7 +8,6 @@ The dataset is structured with 124 indicators in the column ["Questions"], class
 
 Data Source: https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi
 
-**GitHub Repository Overview:**
 ## Directory Structure:
 
 1. **`data`:**
