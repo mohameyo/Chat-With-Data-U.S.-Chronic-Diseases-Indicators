@@ -8,12 +8,14 @@ The dataset is structured with 124 indicators in the column ["Questions"], class
 
 Data Source: https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi
 
-## Directory Structure:
+## Getting Started
+
+### 1. Here is a directory guide
 
 Each file contains the following
 1. **`data`:**
    - Preprocessed data stored in the data using the [PreprocessingDataFile](./Notebooks/getProcessData.ipynb).
-   - Results are available [Here](./Data/results.csv), and evaluation questions are provided in [EvaluationQuestions](./Notebooks/evaluation_questions.ipynb).
+   - Results are available [here](./Data/results.csv), and evaluation questions are provided in [EvaluationQuestions](./Notebooks/evaluation_questions.ipynb).
 
 2. **`Notebooks`:**
    - Additional notebooks for Chat With Data approaches:
@@ -34,31 +36,19 @@ Each file contains the following
    - Essential Python packages and dependencies.
   
 6. **`.env`:**
-    - Update `.env` with required IDs (OpenAI, Pinecone, Hugging Face, SQL Database).
+    - Contais required IDs (OpenAI, Pinecone, Hugging Face, SQL Database).
 
 ## Usage Guide:
 
 1. Execute [`getProcessData`](./Notebooks/getProcessData.ipynb) to preprocess data in 'data'.
 
-2. Update `.env` with required IDs (OpenAI, Pinecone, Hugging Face, SQL Database).
+2. Update .env with the necessary credentials for OpenAI, Pinecone, Hugging Face, and the SQL Database.
 
-3. Install dependencies: `pip install -r /../requirements.txt`.
+3. Install dependencies using the command: `pip install -r /../requirements.txt`.
 
 4. Explore different Chat With Data approaches in the notebooks.
 
-## Getting Started
-
-### 1. Download the GitHub Code
-Clone or download the GitHub code to your local machine. 📥
-
-### 2. Install Packages & Dependencies
-Use the following code in your command prompt to install the dependencies listed in the requirements.txt file and ensure smooth execution of your notebook:
-```pip install -r /path/to/requirements.txt```
-
-### 3. Data Loading & Preprocessing
-Open the "Data Loading & Preprocessing" notebook and run the provided notebook. This step ensures that the dataset is loaded correctly.
-
-### 4. Explore Different Approaches
+### 2. Explore Different Approaches
 Explore different approaches in the provided notebooks. In the notebook, add your OpenAI/AzureOpenAI API credentials as needed. 🧠
 
 #### - PandasAgentLangChainChatbot
@@ -81,7 +71,7 @@ You can check its documentation here: https://python.langchain.com/docs/use_case
 #### - LlamaIndex Approach
 Discover an alternative approach using GPT-4, initializing the LlamaIndex agent, and prompting the GPT for answers. Similar to PandasAgent, it involves coding and returns answers.
 
-### 5. Evaluation
+### 3. Evaluation
 Compare various approaches by referencing the evaluation questions provided in the evaluation notebook. Assess the performance of each method based on the answers obtained. We encourage you to experiment more advanced evaluation methods discussed in this medium: https://medium.com/discovery-at-nesta/how-to-evaluate-large-language-model-chatbots-experimenting-with-streamlit-and-prodigy-c82db9f7f8d9
 
 ## Conclusion
