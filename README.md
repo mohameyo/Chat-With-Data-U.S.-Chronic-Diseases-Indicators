@@ -12,18 +12,17 @@ Data Source: https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi
 
 Each file contains the following
 1. **`data`:**
-   - Preprocessed data stored in the data using the [PreprocessingDataFile](./Notebooks/getProcessData.ipynb)
-   - results.csv provided evaluation questions in the [EvaluationQuestions](./Notebooks/evaluation_questions.ipynb).
+   - Preprocessed data stored in the data using the [PreprocessingDataFile](./Notebooks/getProcessData.ipynb).
+   - Results are available [Here](./Data/results.csv), and evaluation questions are provided in [EvaluationQuestions](./Notebooks/evaluation_questions.ipynb).
 
 2. **`Notebooks`:**
-   - Additional notebooks for different approaches:
-     - [LangChain](./Notebooks/LangChain.ipynb)
-     - [LlamaIndex](./Notebooks/LlamaIndex.ipynb)
-     - [Visualizations](./Notebooks/Visualizations.ipynb)
-   - **Instructions:**
-      - Run [`getProcessData`](./Notebooks/getProcessData.ipynb).
-      - Update `.env` with OpenAI, Pinecone, Hugging Face, and Database IDs.
-      - Install dependencies with `pip install -r /../requirements.txt`.
+   - Additional notebooks for Chat With Data approaches:
+     - [PandasLangChain](./Notebooks/Langchain_PandasAgent.ipynb)
+     - [RAGLangChain](./Notebooks/Langchain_RAG.ipynb)
+     - [PandasLlamaIndex](./Notebooks/Llama_pandasQueryEngine.ipynb)
+     - [SQLLlamaIndex](./Notebooks/Llama_SQLAutoVectorQueryEngine.ipynb)
+    
+   - Also, here are some [visualizations](./Notebooks/visuals.ipynb)
 
 3. **`Scripts`:**
    - Files for the Llama index approach.
@@ -33,12 +32,15 @@ Each file contains the following
 
 5. **`Requirements.txt`:**
    - Essential Python packages and dependencies.
+  
+6. **`.env`:**
+    - Update `.env` with required IDs (OpenAI, Pinecone, Hugging Face, SQL Database).
 
 ## Usage Guide:
 
 1. Execute [`getProcessData`](./Notebooks/getProcessData.ipynb) to preprocess data in 'data'.
 
-2. Update `.env` with required IDs (OpenAI, Pinecone, Hugging Face, Database).
+2. Update `.env` with required IDs (OpenAI, Pinecone, Hugging Face, SQL Database).
 
 3. Install dependencies: `pip install -r /../requirements.txt`.
 
