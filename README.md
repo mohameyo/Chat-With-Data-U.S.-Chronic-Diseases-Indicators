@@ -24,10 +24,10 @@ Each file contains the following
      - [PandasLlamaIndex](./Notebooks/Llama_pandasQueryEngine.ipynb)
      - [SQLLlamaIndex](./Notebooks/Llama_SQLAutoVectorQueryEngine.ipynb)
     
-   - Also, here are some [visualizations](./Notebooks/visuals.ipynb)
+   - [visualizations](./Notebooks/visuals.ipynb) used in the [final report](https://bit.ly/CDCR)
 
 3. **`Scripts`:**
-   - Files for the Llama index approach.
+   - Files for the Llama index SQL approach.
 
 4. **`Images`:**
    - Sample chatbot outputs and RAG explanations.
@@ -36,7 +36,7 @@ Each file contains the following
    - Essential Python packages and dependencies.
   
 6. **`.env`:**
-    - Contais required IDs (OpenAI, Pinecone, Hugging Face, SQL Database).
+    - Provide your own API keys (OpenAI, Pinecone, Hugging Face, SQL Database).
 
 #### Usage Guide:
 
@@ -74,6 +74,9 @@ Explore an alternative approach using GPT-4 by initializing the LlamaIndex Panda
 #### - [SQLLlamaIndex](./Notebooks/Llama_SQLAutoVectorQueryEngine.ipynb)
 Discover another alternative using GPT-4, this time by initializing the LlamaIndex SQL agent and prompting GPT for answers. Similar to the LangChain PandasAgent, this approach involves SQL coding and returns answers.
 
+#### - [Custom GPT](https://chat.openai.com/g/g-3zHG320un-chronic-disease-indicators-expert)
+Our final deliverable for the MADS capstone project was finnaly completed as a custom GPT model. No-code, high performance alternative to existing pipelines. Includes the dataset plus a pdf from CDC`s website explaining the rationale and some additional background.
+
 ### 3. Evaluation
 Compare various approaches by referencing the evaluation questions provided in the evaluation notebook. Assess the performance of each method based on the answers obtained. We encourage you to experiment more advanced evaluation methods discussed in this medium: https://medium.com/discovery-at-nesta/how-to-evaluate-large-language-model-chatbots-experimenting-with-streamlit-and-prodigy-c82db9f7f8d9
 
@@ -86,5 +89,7 @@ This repository introduces novel approaches, highlighting the capabilities of La
 1. Anze Zorin (azorin@umich.edu)
 2. Eugene Yiga (yiga@umich.edu)
 3. Mohamed Abdelrahman (mohameyo@umich.edu)
+
+[Final report](https://bit.ly/CDCR)
    
 Feel free to reach out to any of our team members via the provided email addresses. Enjoy exploring the possibilities and happy coding! 🎉
